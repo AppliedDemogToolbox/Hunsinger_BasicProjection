@@ -2,7 +2,7 @@
 ##############################################################################################################################
 ##R CODE FOR A BASIC POPULATION PROJECTION/FORECAST, APPLIED TO ALASKA
 ##
-##EDDIE HUNSINGER, FEBRUARY 2010 (LAST UPDATED OCTOBER 2018)
+##EDDIE HUNSINGER, FEBRUARY 2010 (LAST UPDATED DECEMBER 2018)
 ##http://u.demog.berkeley.edu/~eddieh/
 ##edyhsgr@gmail.com
 ##
@@ -36,7 +36,7 @@ BASEANDSTEPS<-STEPS+1
 ##SURVIVAL PARAMETERS
 ##
 ##YEAR 2000 US LIFE TABLE lx CURVES FROM THE NATIONAL CENTER FOR HEALTH STATISTICS
-Survival<-read.table(file="http://u.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/BasicProjection/lx2000_US_NCHS.csv",header=TRUE,sep=",")
+Survival<-read.table(file="https://github.com/AppliedDemogToolbox/Hunsinger_BasicProjection/raw/master/lx2000_US_NCHS.csv",header=TRUE,sep=",")
 lxF<-Survival$F_2000
 lxM<-Survival$M_2000
 ##"BA" IS THE BRASS RELATIONAL LOGIT MODEL ALPHA. IT IS CALIBRATED FOR THE JUMP-OFF PERIOD AND SET TO FOLLOW A PATH OF INCREASE
@@ -49,7 +49,7 @@ BA_consM<-.03
 ##FERTILITY PARAMETERS
 ##
 ##YEAR 2005 US FERTILITY RATES FROM THE NATIONAL CENTER FOR HEALTH STATISTICS, SUMMED TO 1
-Fertility<-read.table(file="http://u.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/BasicProjection/Fx2005_US_NCHS.csv",header=TRUE,sep=",")
+Fertility<-read.table(file="https://github.com/AppliedDemogToolbox/Hunsinger_BasicProjection/raw/master/Fx2005_US_NCHS.csv",header=TRUE,sep=",")
 PropFx<-c(Fertility$PropFx)
 ##FRACTION FEMALE AT BIRTH
 ffab<-.4886
@@ -60,7 +60,7 @@ TFR_cons<-c(TFR_base,2.3,2.3,2.3,2.3,2.3,2.3)
 ##NETMIGRATION PARAMETERS
 ##
 ##1995-2000 MIGRATION PROFILES FROM THE 2000 CENSUS, SUMMED TO 1
-Migration<-read.table(file="http://u.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/BasicProjection/MigProf2000_AKCACO_Census2000.csv",header=TRUE,sep=",")
+Migration<-read.table(file="https://github.com/AppliedDemogToolbox/Hunsinger_BasicProjection/raw/master/MigProf2000_AKCACO_Census2000.csv",header=TRUE,sep=",")
 PropInM<-c(Migration$AKIn)
 PropInF<-c(Migration$AKIn)
 PropOutM<-c(Migration$AKOut)
@@ -74,7 +74,7 @@ TIR_cons<-c(TIR_base,0,0,0,0,0,0)
 ##BASE POPULATION
 ##
 ##VINTAGE 2009 POPULATION ESTIMATES FOR 2005, FROM THE ALASKA DEPARTMENT OF LABOR AND WORKFORCE DEVELOPMENT (http://almis.labor.state.ak.us/?PAGEID=67&SUBID=115)
-K05<-read.table(file="http://u.demog.berkeley.edu/~eddieh/AppliedDemographyToolbox/BasicProjection/AgeSex2005_AK_AKDOLv2009.csv",header=TRUE,sep=",")
+K05<-read.table(file="https://github.com/AppliedDemogToolbox/Hunsinger_BasicProjection/raw/master/AgeSex2005_AK_AKDOLv2009.csv",header=TRUE,sep=",")
 KF05<-K05$AK_F_2005
 KM05<-K05$AK_M_2005
 
