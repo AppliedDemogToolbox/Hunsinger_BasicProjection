@@ -3,11 +3,11 @@
 ##R CODE FOR A BASIC POPULATION PROJECTION/FORECAST, APPLIED TO ALASKA
 ##
 ##EDDIE HUNSINGER, FEBRUARY 2010 (LAST UPDATED DECEMBER 2018)
-##http://u.demog.berkeley.edu/~eddieh/
+##http://www.demog.berkeley.edu/~eddieh/
 ##edyhsgr@gmail.com
 ##
 ##THIS WORK IS BASED ON CODE FOR A STOCHASTIC POPULATION FORECAST FOR ALASKA (EDDIE HUNSINGER, 2010), WHICH IS AVAILABLE AT: 
-##http://u.demog.berkeley.edu/~eddieh/toolbox.html#StochasticForecast
+##https://applieddemogtoolbox.github.io/Toolbox/#StochasticForecast
 ##TO SEE THE RELATED STOCHASTIC POPULATION FORECAST PAPER (WITH REFERENCES), GO TO http://www.demog.berkeley.edu/~eddieh/documents/ExpertForecastPaper.pdf
 ##
 ##IF YOU WOULD LIKE TO USE, SHARE OR REPRODUCE ANY INFORMATION OR IDEAS FROM THIS WORK, BE SURE TO CITE THE SOURCE
