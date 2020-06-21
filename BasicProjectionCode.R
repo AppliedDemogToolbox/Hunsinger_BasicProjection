@@ -2,7 +2,7 @@
 ##############################################################################################################################
 ##R CODE FOR A BASIC POPULATION PROJECTION/FORECAST, APPLIED TO ALASKA
 ##
-##EDDIE HUNSINGER, FEBRUARY 2010 (LAST UPDATED DECEMBER 2018)
+##EDDIE HUNSINGER, FEBRUARY 2010 (LAST UPDATED JUNE 2020)
 ##http://www.demog.berkeley.edu/~eddieh/
 ##edyhsgr@gmail.com
 ##
